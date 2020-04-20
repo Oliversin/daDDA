@@ -53,14 +53,14 @@ function ecuapp(p1, p2){
 		/*console.log(dx+"&"+dy)*/
 		//console.log(p);
 
-	}else if (dy !=0 ) {
+	}else {
 		p=dy;
 		
 	}
 		xi=dx/p;
         yi=dy/p;
 
-	if (p1.x> p2.x) {
+	/*if (p1.x> p2.x) {
 		xi*=(-1);
 	}
 
@@ -68,7 +68,7 @@ function ecuapp(p1, p2){
 		yi*=(-1);
 		x=p1.x;
 		y=p1.y;
-	}
+	}*/
 
 	for(k=0;k<p;k++){
 		x+=xi;
